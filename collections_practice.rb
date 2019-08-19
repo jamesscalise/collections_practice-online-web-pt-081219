@@ -12,7 +12,8 @@ def sort_array_char_count(array)
     elsif a.length < b.length
       -1
     else
-      +1
+      1
+    end
 end
 
 def swap_elements(array)
