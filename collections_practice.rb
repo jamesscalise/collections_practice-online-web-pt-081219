@@ -40,7 +40,7 @@ end
 def find_a(array)
   new = []
   array.each {|a|
-    if a.starts_with?("a")
+    if a.start_with?("a")
       new << a
     end
   }
