@@ -33,6 +33,8 @@ def kesha_maker(array)
   array.each {|a|
     a[2] = $
     newArray << a
+  }
+  newArray
 end
 
 def find_a(array)
