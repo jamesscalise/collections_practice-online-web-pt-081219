@@ -18,6 +18,10 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
+  element = array[1]
+  array[1] = array[2]
+  array[2] = element
+  array
 end
 
 def reverse_array(array)
